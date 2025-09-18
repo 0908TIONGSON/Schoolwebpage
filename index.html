@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Sunnnydale School Webpage</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+    }
+
+    /* Page Title */
+    h1 {
+      font-size: 24px;
+      font-weight: bold;
+      color: #1E90FF; /* DodgerBlue */
+      text-align: center;
+    }
+
+    /* Section Headings */
+    #mission h2 { color: #32CD32; }      /* Green */
+    #upcoming-events h2 { color: #FFA07A; } /* Light Salmon */
+    #contact h2 { color: #20B2AA; }      /* Light Sea Green */
+
+    /* Upcoming Events */
+    #upcoming-events {
+      background-color: #FFFFE0; /* Light Yellow */
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    #upcoming-events li span {
+      font-weight: bold;
+      color: red;
+    }
+
+    /* Outdoor Events */
+    .outdoor {
+      background-color: #AFEEEE;
+      padding: 5px;
+      border: 1px solid #B0E0E6;
+      margin-bottom: 5px;
+    }
+
+    /* Contact Box */
+    .contact-box {
+      background-color: #f8f3f3;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Sunnydale School</h1>
+
+  <section>
+    <h2>Mission Statement</h2>
+    <p>Our mission is to provide quality education that nurtures curiosity, creativity, and character in every student.</p>
+  </section>
+
+  <section>
+    <h2>Upcoming Events</h2>
+    <ul>
+      <li class="indoor"
+       data-event-type="indoor" title="Event Type: indoor">
+        Science
+</li>
+      <li class="outdoor" data-event-type="outdoor" title="Event Type: Outdoor">
+        Art Exhibition - <span>June 15</span>
+      </li>
+      <li class="outdoor" data-event-type="outdoor" title="Event Type: Outdoor">
+        Sports Day - <span>June 20</span>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <div class="contact-box">
+      <p>Email: 
+        <a href="mailto:school@email.com" 
+           title="Click to copy email">school@email.com</a>
+      </p>
+      <p>Phone: 
+        <span title="Click to copy number">123-456-789</span>
+      </p>
+    </div>
+  </section>
+
+  <p>
+    <em>Imagine clicking here shows a message: 
+      "Thanks for reaching out!"</em>
+  </p>
+
+</body>
+    </html>
